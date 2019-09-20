@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css" >
+    <title>Pratice of JQuery</title>
+</head>
+<body id="bdy">
+    <h1 id="heading1"></h1>
+    <h3>Color of this content is changed by using the tag name</h3>
+
+    <button id="btnpath">Click to See the file path</button>
+    <p id="path"></p>
+
+    <button id="btnclassadder">Click to add the class to the below paragraph</button>
+    <p id="classaddingparagraph">Open inspect tab before adding the class</p>
+    <button id="btnclassremover">Click to remove the class to the above paragraph</button>
+
+    <br>
+    <div style="margin-top: 20px">
+        <select id="DrpBackgroundColor">
+            <option id="White">White</option>
+            <option id="Green">Green</option>
+            <option id="Red">Red</option>
+            <option id="Black">Black</option>
+        </select>
+    </div>
+
+    <br>
+    <br>
+
+    <form id="form1" method="POST">
+        <div>
+            <label>First Name</label>
+            <input id="FName" name="FName"> 
+        </div>
+
+        <br>
+        <input type="submit">
+    </form>
+    <br>
+    <br>
+    <hr>
+
+    <form id="form2" method="POST">
+
+        <div>
+            <label>Name</label>
+            <input type="text" name="Name" id="Name">
+        </div>
+        <br>
+
+        <div>
+                <label>UserName</label>
+                <input type="text" name="UserName" id="UserName">
+        </div>
+        <br>
+
+        <div>
+            <label>Password</label>
+            <input type="password" name="Password" id="Password">
+        </div>
+        <br>
+
+        <div>
+            <label>Confirm password</label>
+            <input type="password" name="ConfirmPassword" id="ConfirmPassword">
+        </div>
+        <br>
+        
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+    <br>
+    <h4>This is to learn about selection of Descendant Under a id/class</h4>
+    <ul id="listing">
+
+        <li>First Under Direct Descendant</li>
+        <li>Second Under Direct Descendant</li>
+        <li>Third Under Direct Descendant</li>
+
+        <ul>
+            <li>First Point Under Indirect Descendant</li>
+            <li>Second Point Under Indirect Descendant</li>
+            <li>Third Point Under Indirect Descendant</li>
+        </ul>
+
+        <li>Fourth Point Under Direct Descendant</li>
+        <li>Fifth Point Under Direct Descendant</li>
+
+    </ul>
+
+    <button id="Direct">Direct Descendant</button>
+    <button id="Indirect">Direct/Indirect Descendant</button>
+
+    <br>
+    <br>
+
+    <h4 id="hide">Hello press the "hide" button to make me disappear</h4>
+    <button id="btnHide">Hide</button>
+    <button id="btnShow">Show</button>
+
+    <br>
+    <br>
+
+    <h4 id="hide2">This is another method of hidding an element with a single button</h4>
+    <button id="btnHideShow">Hide</button>
+
+    <br>
+    <br>
+
+    <h4 id="toggle">Another method exist to hide/show which determines itself weather the content is hidden or displayed<br>The Method is toggle</h4>
+    <button id="btnToggle">Toggle</button>
+
+    <h3>Next is the fade concept <br>The different types of fade functions are as follows</h3>
+    <ul>
+        <li>fadeIn()</li>
+        <li>fadeOut()</li>
+        <li>fadeToggle()</li>
+        <li>fadeTo()</li>
+    </ul>
+
+    <br>
+
+    <button id="btnFadeIn">FadeIn</button>
+    <button id="btnFadeOut">FadeOut</button>
+    <br>
+    <br>
+
+    <div id="div1" style="width:80px;height:80px;background-color:red;"></div><br>
+    <div id="div2" style="width:80px;height:80px;background-color:aqua;"></div><br>
+    <div id="div3" style="width:80px;height:80px;background-color:green;"></div><br>
+
+    <br>
+    <br>
+
+    <h3>As toggle is an alternative to hide/show the alternative for fadeIn/fadeOut is fadeToggle
+    <br>And here the division is hidden because an attribute called as display:none is been added</h3>
+    <button id="btnFadeToggle">FadeIn/FadeOut</button>
+    <br>
+    <br>
+
+    <div id="div4" style="width:80px;height:80px;background-color:red;display:none;"></div><br>
+    <div id="div5" style="width:80px;height:80px;background-color:aqua;display:none;"></div><br>
+    <div id="div6" style="width:80px;height:80px;background-color:green;display:none;"></div><br>
+
+
+
+    <div style="margin-top:300px"> 
+
+        
+
+
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="../Javascript/file.js"></script>
+</body>
+</html>
